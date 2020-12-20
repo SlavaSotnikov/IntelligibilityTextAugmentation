@@ -15,7 +15,7 @@ namespace TextAugmentation
             Console.Write("Please enter your text:");
             string text = Console.ReadLine();
 
-            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Then you can pick one of options: 0, 1, 2, 3 ");
             Console.ResetColor();
             int caseSwitch = int.Parse(Console.ReadLine());
